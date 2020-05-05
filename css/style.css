@@ -1,16 +1,49 @@
-#influence{
-	background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/RLMC87YA66JR1552926015954.jpg)
-			}
 
-h2 {font-family: impact;}
+@media (min-width: 1200px) {
+	.container-big{
+		max-width: 1280px;
+	}
+}
 
-
-
-
-
-
-
-
+#influence {
+	background-image:url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/RLMC87YA66JR1552926015954.jpg);
+	background-position: center;
+}
 
 
+#influence h2{
+	color: #ebdec2;
+	font-family: Open Sans,Arial,Helvetica,sans-serif;
+	font-size:17px;
+	font-weight:400;
+	text-transform: uppercase;
+	padding-top:80px;
+	text-align:right;
+}
 
+#influence h1{
+	color: #ebdec2;
+	font-family: Open Sans,Arial,Helvetica,sans-serif;
+	font-size:45px;
+	font-weight:400;
+	text-transform: uppercase;
+	padding-top:10px;
+	text-align:right;
+}
+
+#influence p{
+	color: #ebdec2;
+	font-family: Open Sans,Arial,Helvetica,sans-serif;
+	font-size:21px;
+	font-weight:400;
+	text-transform: uppercase;
+	padding-top:15px;
+	text-align:right;
+}
+
+#influence a{
+    color : #c77e19;
+    border: 1px solid #c77e19;
+    padding: 10px 10px ;
+    display: inline-block;
+}
